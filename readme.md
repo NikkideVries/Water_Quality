@@ -1,5 +1,5 @@
 # What Drives Water Potability? 
-- What is potability? Potable water, is water that is suitable for drinking and is safe for ingestion.
+- What is potability? Potable water, is water that is suitable for drinking and or is safe for ingestion.
 
 
 # Project Description:

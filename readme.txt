@@ -1,21 +1,17 @@
 # What Drives Water Potability? 
 - What is potability? Potable water, is water that is suitable for drinking and is safe for ingestion.
 
-|-----------------------------------------------------|
 
-<b> Project Description:
+# Project Description:
 
 This project contains findings from reshearch based on classification machine learning to determine the drivers of potability.
 Data was acquired from this website: https://www.kaggle.com/datasets/adityakadiwal/water-potability
 
-|-------------------------------------------------------|
 
-<b> Project Goal:
+# Project Goal:
 My goal is to identify drivers of potability, why some drivers are more important than others, predict potability using machine learning, and make recomendations based on the information that I find to potentially increase safe water potability. 
 
-
-|--------------------------------------------------------|
-<b> Executive Summary: 
+# Executive Summary: 
 
 
 1. Goal: Show what water metrics drive potability and what can improve potability
@@ -24,22 +20,14 @@ My goal is to identify drivers of potability, why some drivers are more importan
     - No feature alone drives potability
     - Machine learning feature selection found 3 top features, but they didn’t improve the model.
     - However, analyzing features under safe levels for humans shows ph is a driver of water potability.
-    
+4. Recomendations: 
+    - Water quality features should not be analyzed on single features.
+    - When deciding on potable water, metrics should be analyzed by EPA and WHO approved levels. 
 
 
 
+# Project Replication:
 
-
-
-
-
-
-
-
-
-
-|-------------------------------------------------|
-Project Replication: 
 1. You will need to dowload the data from: https://www.kaggle.com/datasets/adityakadiwal/water-potability
 2. Make sure your enviormnet matches the specifications listed on the environment.yml file in this repository. If you environment does meet these requirements you can set up your conda environment using the file. 
 3. You then can download this repository to your local device. Each process of the data science pipeline has thier own file. For understanding: 
@@ -62,9 +50,8 @@ Project Replication:
                     - validate[set_features]
                     - test[set_features]
                 - Run the entire notebook.
-|----------------------------------------------------|
 
-<b> Initial Questions: 
+# Initial Questions: 
 
 1. What does each feature mean and what could it mean for human health?
 2. What are safe ranges for features for humans? 
@@ -78,9 +65,8 @@ Questions listed on the final notebook:
 2. Could Turbidity be important? How much clarity in the water could be a major impact on drinkable water.
 3. Could ph be important? Is the water to acidic or too basic? Humans can safley consume water on a ph range of 6.5 to 8.5.
 
-|----------------------------------------------------|
 
-<b> Proget Planning:
+# Proget Planning:
 1. Data Acquisition: 
     - Acquire the data from: https://www.kaggle.com/datasets/adityakadiwal/water-potability
 2. Data Peperations: 
@@ -105,8 +91,7 @@ Questions listed on the final notebook:
     
     
     
-|-------------------------------------------------------------|
-<b> Data Dictionary
+# Data Dictionary
 
 | **Quality Index** | **Detailed Definition** | **Simplified** | **Mesaurement** |  **Safe Range** | 
 |-------------------|-----------------|----------------| ----------------|-------------|
@@ -122,7 +107,7 @@ Questions listed on the final notebook:
 | Potability | potable water is suitable for drinking | Is the water safe for human consumption | 1 indicates potable, 0 indicates not potable |
 
 
-|--------------------------------------------------------------|
+# Exploration:
 <ins>Exploration Summary of features without bins:</ins>
 
 
@@ -169,8 +154,8 @@ Questions listed on the final notebook:
     - ph_range_safe
     - hardness_range_moderately_hard
 
-|-----------------------------------------------------------------------|
-<b> Hypothesis Testing: 
+
+# Hypothesis Testing: 
 
 1. Does Potability differ across ph?
 2. Does potability differ across chloramines?
@@ -178,8 +163,9 @@ Questions listed on the final notebook:
 4. If we organize hardness by a water hardness scale, does it impact potability?
 
 Results are listed in the final notebook.
-|-----------------------------------------------------------------------|
-<b> Modeling:
+
+
+# Modeling:
 ### How did our Models Do?
 Models were compared on thier train and validate accuracy, as well as the difference between these two scores. I used accuracy beacuse the predictions revolve around safe or unsafe drinking water. If there are any mistakes it could lead to harm.
 
@@ -205,11 +191,7 @@ The table bellow shows the results of the modeling tests: <br>
 
 
 
-
-
-
-|---------------------------------------------------------------------------|
-<b> Conclusion: 
+# Conclusion: 
 1. Summary:
     - Without feature engineering, each feature on its own does not provide much information about what causes potability. This raises concerns about potential bias in the data. Some features that were thought to drive potability, based on background knowledge, were found not to be drivers in reality.
     - This study highlights that scientists or regulators evaluating water potability should not rely solely on prior knowledge or individual features/metrics. Water potability cannot be assumed based on these factors alone.

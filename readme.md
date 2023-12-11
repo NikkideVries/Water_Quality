@@ -205,3 +205,7 @@ The table bellow shows the results of the modeling tests: <br>
     - I would like to apply these machine learning methods to more water quality datasets to identify clearer drivers of water quality.
     - I have examined the data three times in search of drivers. I would like to spend more time on a new dataset to identify any drivers present.
     - I am interested in examining marine biology data, specifically water quality around coral, to determine if water quality is causing harm
+    
+    
+# Presentation: 
+Here is the link to the presentation: https://www.canva.com/design/DAF2oj0amrU/pKKgtVCKCw1VC3SIQvzFjA/edit

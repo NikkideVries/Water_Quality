@@ -3,8 +3,8 @@
 
 
 # Project Description:
+This project contains findings from research based on classification machine learning to determine the drivers of potability. The water quality data was acquired from Kagggle. The results and methodologies from this project can be beneficial to helping build models that could help safely predict water quality for different regions. Drinking water is a important resource around the world and knowing what makes the water safe is key to protecting human health.  
 
-This project contains findings from reshearch based on classification machine learning to determine the drivers of potability.
 Data was acquired from this website: https://www.kaggle.com/datasets/adityakadiwal/water-potability
 
 
